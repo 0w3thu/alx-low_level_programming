@@ -1,19 +1,17 @@
 #include <stdio.h>
 /**
- * main - display numbers 0-9 without used printf()
+ * main - Prints numbers from 0 to 9.
  *
- * return: Always 0(Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char num[10] = "0123456789";
 	int i;
 
-	for(i=0 ; i<10; i++)
-	{ 
-		putchar(num[i]);
+	for (i = 48; i < 58; i++)
+	{
+		putchar(i);
 	}
-
 	putchar('\n');
 	return (0);
 }
