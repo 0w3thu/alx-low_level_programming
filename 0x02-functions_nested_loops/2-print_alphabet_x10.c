@@ -1,8 +1,7 @@
-#include "main.h";
-#include <stdio.h>;
+#include "main.h"
 
 /**
- * main - check the code
+ * main - check the code.
  *
  * Return: Always 0.
  */
@@ -17,17 +16,20 @@ int main(void)
 
 void print_alphabet_x10(void)
 {
-	char alpha[26] = "abcdefghijklmnopqrstuvwxyz";
-	int i = 0, j;
+	char ch;
+	int i;
 
-	while(i<10)
+	i = 0;
+
+	while (i < 10)
 	{
-		for(j=0; j<26, j++)
+		ch = 'a';
+		while (ch <= 'z')
 		{
-			putchar(alpha[i]);
+			_putchar(ch);
+			ch++;
 		}
-		
+		_putchar('\n');
 		i++;
 	}
-	putchar('\n');
 }

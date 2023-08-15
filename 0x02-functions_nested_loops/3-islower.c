@@ -1,5 +1,4 @@
 #include "main.h"
-#include <ctype.h>
 
 /**
  * main - check the code.
@@ -22,16 +21,10 @@ int main(void)
     _putchar('\n');
     return (0);
 }
-
-/* This function determines if a character is lowercase and returns the appropriate response*/
 int _islower(int c)
 {
-	if(islower(c))
-	{
+	if (c >= 'a' && c <= 'z')
 		return (1);
-	}
 	else
-	{
 		return (0);
-	}
 }

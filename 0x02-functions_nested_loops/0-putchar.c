@@ -1,21 +1,20 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main-entry
  *
- * return: always 0 (Success)
+ * return: always 0
  */
-int main(void)
+int main (void)
 {
-	char putArray[8]= "_putchar";
-	int i;
-
-	for(i=0; i<8; i++)
-	{
-		putchar(putArray[i]);
-	}
-
-	putchar('\n');
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
-

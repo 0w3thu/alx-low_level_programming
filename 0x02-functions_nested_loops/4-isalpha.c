@@ -1,5 +1,4 @@
 #include "main.h"
-#include <ctype.h>
 
 /**
  * main - check the code.
@@ -24,16 +23,7 @@ int main(void)
     _putchar('\n');
     return (0);
 }
-
-/* This function determines if a char is an alphabet*/
 int _isalpha(int c)
 {
-	if(isalpha(c))
-	{
-		return (1);
-	}
-	else
-	{
-		return (0);
-	}
+	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
 }
