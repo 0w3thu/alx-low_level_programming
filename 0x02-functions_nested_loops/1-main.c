@@ -5,10 +5,8 @@
  *
  * Return: Always 0.
  */
-
-
-int add(int c, int s)
+int main(void)
 {
-	int results = c+k
-	return (results);
+    print_alphabet();
+    return (0);
 }
