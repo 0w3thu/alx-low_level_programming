@@ -23,9 +23,9 @@ char *str_concat(char *s1, char *s2)
         
 
 	/*This for loop fills the s1 contents into the ptr*/
-	for(i = 0; si[i] != '\0'; i++)
+	for(i = 0; i<cont1; i++)
 	{
-		ptr[i] = str1[i];
+		ptr[i] = s1[i];
 	}
 
 	/*This for loops will get the end of ptr*/
@@ -35,7 +35,7 @@ char *str_concat(char *s1, char *s2)
 	}
 
 	/*This for loops will concatenate the s2 at the end of ptr*/
-	for(i = 0; s2[i] != '\0'; i++)
+	for(i = 0; i<cont2; i++)
 	{
 		ptr[len+1] = s2[i];
         }

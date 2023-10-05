@@ -1,5 +1,5 @@
 #include"main.h"
-#include <stdlib.h">
+#include <stdlib.h>
 /**
  * create array: this function creates an array with an unspecific number of space
  *
