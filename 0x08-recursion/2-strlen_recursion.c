@@ -2,9 +2,9 @@
 
 /**
  * _strlen_recursion: prints the length of a string
+ * @s: The array that is given to us
  *
- * @s: The unknow given string
- * Return: success(0)
+ * Return: The size of the array
  */
 
 int _strlen_recursion(char *s)
